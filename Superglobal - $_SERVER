@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+echo $_SERVER['PHP_SELF'];
+echo "<br>";
+echo $_SERVER['SERVER_NAME'];
+echo "<br>";
+echo $_SERVER['HTTP_HOST'];
+echo "<br>";
+echo $_SERVER['HTTP_REFERER'];
+echo "<br>";
+echo $_SERVER['HTTP_USER_AGENT'];
+echo "<br>";
+echo $_SERVER['SCRIPT_NAME'];
+?>
+
+</body>
+</html>
+==
+/demo/demo_global_server.php
+35.194.26.41
+35.194.26.41
+https://tryphp.w3schools.com/showphp.php?filename=demo_global_server
+Mozilla/5.0 (Linux; Android 10; vivo 1929) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.62 Mobile Safari/537.36
+/demo/demo_global_server.php
+==
