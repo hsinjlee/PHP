@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Welcome to my home page!</h1>
+<p>Some text.</p>
+<p>Some more text.</p>
+<?php include 'footer.php';?>
+
+</body>
+</html>
+==
+Welcome to my home page!
+Some text.
+
+Some more text.
+
+Copyright © 1999-2021 W3Schools.com
+==
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<div class="menu">
+<?php include 'menu.php';?>
+</div>
+
+<h1>Welcome to my home page!</h1>
+<p>Some text.</p>
+<p>Some more text.</p>
+
+</body>
+</html>
+==
+Home - HTML Tutorial - CSS Tutorial - JavaScript Tutorial - PHP 7 Tutorial
+Welcome to my home page!
+Some text.
+
+Some more text.
+==
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Welcome to my home page!</h1>
+<?php include 'vars.php';
+echo "I have a $color $car.";
+?>
+
+</body>
+</html>
+==
+Welcome to my home page!
+I have a red BMW.
+==
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Welcome to my home page!</h1>
+<?php include 'noFileExists.php';
+echo "I have a $color $car.";
+?>
+
+</body>
+</html>
+==
+Welcome to my home page!
+I have a .
+==
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Welcome to my home page!</h1>
+<?php require 'noFileExists.php';
+echo "I have a $color $car.";
+?>
+
+</body>
+</html>
+==
+Welcome to my home page!
+==
+
